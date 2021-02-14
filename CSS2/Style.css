@@ -1,0 +1,163 @@
+body
+{
+    
+    height: 1675px;
+    margin: 0px 0px;
+    background-image: url(../images/image1.jpg);
+    background-size: 1520px 990px;
+    background-repeat: no-repeat;
+    background-color: #3d3d5c;
+    
+    
+    
+}
+.container
+{
+    height: 92px;
+}
+.left
+{
+    display: inline-block;
+    position: absolute;
+    left: -4px;
+}
+.mid
+{
+    position: absolute;
+    left: 224px;
+    top: 20px;
+}
+.navbar li
+{
+    list-style: none;
+    float: left;
+}
+.navbar li a
+{
+    text-decoration: none;
+    margin: 30px;
+}
+.navbar li a:hover
+{
+    color: red;
+}
+.right
+{
+    position: absolute;
+    right: -337px;
+}
+.btn
+{
+    margin: 2px 35px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.container
+{
+    background-color: #5abcb1;
+}
+.small
+{
+    height: 504px;
+    /* border: 2px solid; */
+    margin: 38px 3px;
+    width: 494px;
+    position: absolute;
+    right: 83px;
+    background-image: url(../images/img2.png);
+    background-size: 484px 389px;
+    background-repeat: no-repeat;
+}
+.about
+{
+    /* border: 2px solid; */
+    height: 340px;
+    margin: 66px 29px;
+    float: left;
+    width: 623px;
+}
+.about p
+{
+    margin: 13px 4px;
+    font-size: 20px;
+    color: #a16440;
+}
+.lik 
+{
+  
+    margin: 34px 2px;
+}
+.lik a
+{
+    margin: 2px 41px;
+    /* border: 2px solid; */
+    padding: 12px 35px;
+    border-radius: 20px;
+    background-color: #58a5a5;
+    text-decoration: none;
+    font-size: 27px;
+}
+.lik a:hover
+{
+    color:red;
+}
+.contact
+{
+    /* border: 2px solid; */
+    height: 601px;
+    margin: 947px 0px;
+    width: 1171px;
+    position: absolute;
+    right: 182px;
+    background-color: white;
+    border-radius: 9px;
+    background-image: url("../images/img-01.png");
+    background-repeat: no-repeat;
+    background-size:  638px 612px;
+}
+.actual
+{
+    /* border: 2px solid; */
+    height: 400px;
+    width: 456px;
+    position: absolute;
+    right: 63px;
+    top: 115px;
+    background-color: #fffcfa;
+}
+.input1
+{
+    margin: 25px 117px;
+    /* border: 3px solid; */
+}
+.input1 input
+{
+    height: 36px;
+    width: 251px;
+    border-radius: 33px;
+}
+.input1 textarea
+{
+    border-radius: 7px;
+    width: 257px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.btn2 button
+{
+    width: 212px;
+    height: 46px;
+    margin: -2px 147px;
+    border-radius: 23px;
+    background-color: #28d7bb;
+}
+button:focus
+{
+    outline: none;
+}
+.btn2 button:hover
+{
+    background-color: blanchedalmond;
+}
